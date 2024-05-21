@@ -1,0 +1,135 @@
+" g options
+let mapleader = " "
+let maplocalleader = " "
+let highlighturl_enabled = 1
+let autoformat_enabled = 1
+let codelens_enabled = 1
+let lsp_handlers_enabled = 1
+let cmp_enabled = 1
+let autopairs_enabled = 1
+let icons_enabled = 1
+
+"" Common settings -------------------------
+set showmode
+set so=5
+set nu
+set ideajoin
+set idearefactormode=keep
+
+set clipboard+=unnamed
+set clipboard+=ideaput
+set incsearch
+set number relativenumber
+set scrolloff=5
+set undofile
+set completeopt=menuone,noselect
+
+" Search settings
+set nohlsearch
+set incsearch
+set ignorecase
+set inccommand=split
+set smarttab
+
+" Appearance settings
+set title
+set laststatus=2
+set cmdheight=1
+
+" Text formatting settings
+set autoindent
+set spell
+set spelllang=en_us
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set breakindent
+set nowrap
+
+" Count words with '-' as whole word
+set iskeyword+=-
+
+
+" Plugins
+set surround
+set NERDTree
+set highlightedyank
+
+" Mappings
+vmap s S
+
+map <C-[> <Esc>
+inoremap jj <Esc>
+map <C-a> gg<S-v>G
+
+nnoremap x "_x
+xnoremap p "_dP
+nnoremap d "_d
+vnoremap d "_d
+nnoremap D "_D
+nnoremap c "_c
+nnoremap <s-c> "_<s-c>
+vnoremap c "_c
+
+nnoremap <leader>w v:action EditorSelectWord<CR>
+vnoremap <leader>w :action EditorSelectWord<CR>
+
+nnoremap <leader>pv :action SelectInProjectView<CR>
+
+nnoremap sv :action SplitVertically<CR>
+nnoremap ss :action SplitHorizontally<CR>
+nnoremap wc :action Unsplit<CR>
+
+nnoremap <leader>wo :action CloseAllEditorsButActive<cr>
+
+sethandler <c-j> a:vim
+sethandler <c-k> a:vim
+
+nnoremap <s-h> :action PreviousTab<CR>
+nnoremap <s-l> :action NextTab<CR>
+
+nnoremap [[ :action MethodUp<CR>
+nnoremap ]] :action MethodDown<CR>
+
+nnoremap zc :action CollapseRegion<CR>
+nnoremap zo :action ExpandRegion<CR>
+
+nnoremap <leader>lf  :action ReformatCode<CR>
+nnoremap <leader>o :action OptimizeImports<CR>
+
+nnoremap ]d :action GotoNextError<CR>
+nnoremap [d :action GotoPreviousError<CR>
+
+nnoremap <leader>fw :action FindInPath<CR>
+nnoremap <leader>ff :action GotoFile<CR>
+nnoremap gd :action GotoImplementation<CR>
+nnoremap gr :action ShowUsages<CR>
+nnoremap <leader>r :action Refactorings.QuickListPopupAction<CR>
+nnoremap <leader>ca :action ShowIntentionActions<CR>
+
+nnoremap <c-c> :action HideAllWindows<CR>
+nnoremap <leader>t :action ToggleDistractionFreeMode<CR>
+
+" Git (leader g)
+nnoremap <leader>gd :action Compare.LastVersion<CR>
+nnoremap <leader>gb :action Git.Branches<CR>
+nnoremap <leader>gf :action Git.Fetch<CR>
+nnoremap <leader>gr :action Git.Rebase<CR>
+nnoremap <leader>hr :action Vcs.RollbackChangedLines<CR>
+nnoremap <leader>gc :action Git.CreateNewBranch<CR>
+
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
+
+" Harpoon
+nmap <C-h> :action HarpoonerOpenFile0<cr>
+nmap <C-f> :action HarpoonerOpenFile1<cr>
+nmap <C-n> :action HarpoonerOpenFile2<cr>
+nmap <C-s> :action HarpoonerOpenFile3<cr>
+
+nmap <C-e> :action HarpoonerQuickMenu<cr>
+nmap <leader>a :action HarpoonerAddFile<cr>
+
+" NERDTree
+nmap <c-p> :NERDTree<CR>

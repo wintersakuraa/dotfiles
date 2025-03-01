@@ -29,6 +29,11 @@
 7. Spotify
 8. DropOver (App store)
 
+## Dock autohide delay
+Remove delay: `defaults write com.apple.dock autohide-delay -float 0; killall Dock`
+Restore default: `defaults delete com.apple.dock autohide-delay; killall Dock`
+
+
 ## Setup nushell
 1. Install `nushell`, `vivid`, `zoxide`, `carapace` via `brew`
 2. Change nushell config dir:

@@ -25,7 +25,8 @@
 3. Docker
 4. DataGrip
 5. Postman
-6. Spotify
+6. Slack
+7. Spotify
 
 ## Setup nushell
 1. Install `nushell`, `vivid`, `zoxide`, `carapace` via `brew`

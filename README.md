@@ -1,15 +1,14 @@
 # Setup
 
-## Installation order
+## Initial installations
 1. `brew`
 2. Arc Browser
 3. Ghostty terminal
-4. Raycast
-5. `nvim`
-6. `starship`
-7. `bat`
-8. `fzf`
-9. `--cask font-jetbrains-mono-nerd-font`
+4. `nvim`
+5. `starship`
+6. `bat`
+7. `fzf`
+8. `--cask font-jetbrains-mono-nerd-font`
 
 ## Next steps
 1. Create `.zshrc` file
@@ -19,6 +18,10 @@
 5. Setup fnm
 6. Install node
 7. Run `autoload -Uz compinit` and `compinit`
+
+## Other installations
+1. Cursor
+2. Raycast
 
 ## Setup nushell
 1. Install `nushell`, `vivid`, `zoxide`, `carapace` via `brew`

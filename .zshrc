@@ -21,7 +21,7 @@ case ":$PATH:" in
 esac
 
 # syntax highlighting
-source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=243'
 
 # zed
@@ -61,4 +61,4 @@ _fzf_compgen_dir() {
 }
 
 # bat (better cat)
-export BAT_THEME=ansi
+export BAT_THEME="Nord"

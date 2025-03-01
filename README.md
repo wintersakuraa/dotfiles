@@ -27,6 +27,7 @@
 5. Postman
 6. Slack
 7. Spotify
+8. DropOver (App store)
 
 ## Setup nushell
 1. Install `nushell`, `vivid`, `zoxide`, `carapace` via `brew`

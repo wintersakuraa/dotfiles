@@ -18,6 +18,7 @@
 2. Setup fnm
 3. Install node
 4. Run `autoload -Uz compinit` and `compinit`
+5. Setup nushell
 
 ## Other apps
 1. spotify

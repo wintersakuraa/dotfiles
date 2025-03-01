@@ -22,6 +22,7 @@
 
 ## Setup nushell
 1. Install `nushell`, `vivid`, `zoxide`, `carapace` via `brew`
+2. Change nushell config dir: `export NU_CONFIG_DIR=/Users/wintersakura/.config/nushell`
 
 ## Other apps
 1. spotify

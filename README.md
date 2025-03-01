@@ -22,8 +22,9 @@
 ## Other installations
 1. Cursor
 2. Raycast
-3. Postman
-4. Spotify
+3. Docker
+4. Postman
+5. Spotify
 
 ## Setup nushell
 1. Install `nushell`, `vivid`, `zoxide`, `carapace` via `brew`

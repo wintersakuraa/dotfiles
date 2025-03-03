@@ -8,7 +8,8 @@
 5. `starship`
 6. `bat`
 7. `fzf`
-8. `--cask font-jetbrains-mono-nerd-font`
+8. `ripgrep`
+9. `--cask font-jetbrains-mono-nerd-font`
 
 ## Next steps
 1. Create `.zshrc` file

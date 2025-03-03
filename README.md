@@ -15,28 +15,24 @@
 2. Clone .config files
 3. Setup zsh-syntax-highlighting
 4. Install `tmux` and `tmp` package manager
-5. Setup fnm
-6. Install node
-7. Run `autoload -Uz compinit` and `compinit`
+5. Setup pnpm and node
+6. Run `autoload -Uz compinit` and `compinit`
 
 ## Other installations
 1. Cursor
 2. Raycast
 3. Docker
-4. DataGrip
-5. Postman
-6. Slack
-7. Spotify
-8. DropOver (App store)
-9. Obsidian
+4. Lens
+5. DataGrip
+6. Postman
+7. Slack
+8. Obsidian
+
+## Util apps
+1. Alcove
+2. DropOver (App Store)
+3. Spotify
 
 ## Dock autohide delay
 Remove delay: `defaults write com.apple.dock autohide-delay -float 0; killall Dock`
 Restore default: `defaults delete com.apple.dock autohide-delay; killall Dock`
-
-
-## Setup nushell
-1. Install `nushell`, `vivid`, `zoxide`, `carapace` via `brew`
-2. Change nushell config dir:
-   - `export NU_CONFIG_DIR=/Users/wintersakura/.config/nushell`
-   - `export XDG_CONFIG_HOME=/Users/wintersakura/.config`

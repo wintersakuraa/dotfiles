@@ -28,6 +28,7 @@
 6. Slack
 7. Spotify
 8. DropOver (App store)
+9. Obsidian
 
 ## Dock autohide delay
 Remove delay: `defaults write com.apple.dock autohide-delay -float 0; killall Dock`

@@ -7,9 +7,10 @@
 4. `nvim`
 5. `starship`
 6. `bat`
-7. `fzf`
-8. `ripgrep`
-9. `--cask font-jetbrains-mono-nerd-font`
+7. `git-delta`
+8. `fzf`
+9. `ripgrep`
+10. `--cask font-jetbrains-mono-nerd-font`
 
 ## Next steps
 1. Create `.zshrc` file
